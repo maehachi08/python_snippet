@@ -1,0 +1,9 @@
+---
+common: &common
+  aws_region: us-west-2
+  service: service_name
+
+development:
+  common:
+    <<: *common
+  environment: development

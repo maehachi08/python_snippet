@@ -1,0 +1,21 @@
+---
+
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo
+  pre_build:
+    commands:
+      - cd -
+  build:
+    commands:
+      - cd -
+  post_build:
+    commands:
+      - cd -
+artifacts:
+  type: zip
+  files:
+    - '**/*'
